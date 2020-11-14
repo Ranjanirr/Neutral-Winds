@@ -485,6 +485,7 @@ main .hero-area {
     position: relative;
     padding-bottom: 50%;
     height: 0;
+   
     overflow: hidden;
   }
   .map-container iframe{
@@ -493,6 +494,17 @@ main .hero-area {
     left: 0;
     width: 100%;
     height: 75%;
+  }
+  .other-resources{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    margin: 30%;
+
+  }
+  .other-resources figure {
+    margin: 20%;
   }
 
 }
